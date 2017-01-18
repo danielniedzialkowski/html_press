@@ -27,7 +27,7 @@ module HtmlPress
       @placeholders = []
 
       out = process_ie_conditional_comments out
-      out = process_scripts out
+      # out = process_scripts out
       out = process_styles out
       out = process_html_comments out
       out = process_pres out
