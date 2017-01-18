@@ -41,7 +41,7 @@ module HtmlPress
       # use newlines before 1st attribute in open tags (to limit line lengths)
       # out.gsub!(/(<[a-z\-:]+)\s+([^>]+>)/i, "\\1\n\\2")
 
-      out = process_attributes out
+      # out = process_attributes out
       out = process_whitespaces out
       out = fill_placeholders out
 
